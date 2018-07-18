@@ -1,11 +1,11 @@
 {
     "name": "Pooyadch/LaravelRoleManagement",
     "description": ":description",
-    "license": "license",
+    "license": "MIT",
     "authors": [
         {
-            "name": "author name",
-            "email": "author email",
+            "name": "Pooyadch",
+            "email": "Pooya.d2009@gmail.com",
             "homepage": "author homepage"
         }
     ],
