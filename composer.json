@@ -1,5 +1,5 @@
 {
-    "name": "pooyadch/laravelrolemanagement",
+    "name": "Pooyadch/LaravelRoleManagement",
     "description": ":description",
     "license": "license",
     "authors": [
@@ -9,7 +9,7 @@
             "homepage": "author homepage"
         }
     ],
-    "homepage": "https://github.com/pooyadch/laravelrolemanagement",
+    "homepage": "https://github.com/Pooyadch/LaravelRoleManagement",
     "keywords": ["Laravel", "LaravelRoleManagement"],
     "require": {
         "illuminate/support": "~5"
