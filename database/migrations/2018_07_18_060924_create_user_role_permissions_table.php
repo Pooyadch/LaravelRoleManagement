@@ -16,8 +16,9 @@ class CreateUserRolePermissionsTable extends Migration
         Schema::create('user_role_permissions', function (Blueprint $table) {
             $table->increments('id');
             $table->string('role_name');
-            $table->string('controller_name')->nullable();
+            $table->string('route_name')->nullable();
             $table->string('method_name')->nullable();
+            $table->enum('permission_type',['admin','branch','own','guest']);
             $table->timestamps();
         });
     }
