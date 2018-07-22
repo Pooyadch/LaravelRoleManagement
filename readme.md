@@ -14,8 +14,20 @@ Via Composer
 ``` bash
 $ composer require pooyadch/laravelrolemanagement
 ```
+migrate all database
+```
+php artisan migrate
+```
+
+add following code into Kernel.php in App/Http
+```php
+   protected $routeMiddleware = [
+           'UserRolePermissionMiddleware' =>UserRolePermissionMiddleware::class,
+       ];
+```
 
 ## Usage
+add "UserRolePermissionMiddleware" middleware on your route
 
 ## Change log
 
