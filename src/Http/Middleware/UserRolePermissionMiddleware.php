@@ -6,6 +6,7 @@ use Alive2212\LaravelMobilePassport\AliveMobilePassportRole;
 use Alive2212\LaravelMobilePassport\LaravelMobilePassport;
 use Closure;
 use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Route;
 use Pooyadch\LaravelRoleManagement\UserRolePermission;
 
@@ -38,8 +39,7 @@ class UserRolePermissionMiddleware
                 $request->attributes->add(["permission_type" => "$permissionType"]);
                 return $next($request);
             } else {
-                return redirect(config());
-//                return redirect('/');
+                return redirect(config('laravelrolemanagement.callbackUrlRoleManagement'));
             }
         }
     }
