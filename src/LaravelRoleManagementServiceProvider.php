@@ -35,6 +35,10 @@ class LaravelRoleManagementServiceProvider extends ServiceProvider
             /*$this->publishes([
                 __DIR__.'/../resources/assets' => public_path('vendor/pooyadch'),
             ], 'laravelrolemanagement.views');*/
+            // Publishing assets.
+            /*$this->publishes([
+                __DIR__.'/../resources/assets' => public_path('vendor/pooyadch'),
+            ], 'laravelrolemanagement.views');*/
 
             // Publishing the translation files.
             /*$this->publishes([
